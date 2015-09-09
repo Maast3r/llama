@@ -15,3 +15,68 @@
  *= require_self
 
  */
+
+ html, body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fdf6e3;
+    min-height: 100%;
+}
+
+::selection {
+    background: #d33682;
+    color: white;
+}
+
+#nav {
+    background: #93a1a1;
+    color: #002b36;
+}
+
+#nav li {
+    background: #93a1a1;
+}
+
+#nav a {
+    background: #93a1a1;
+    color: #002b36;
+}
+
+.title-area, .name{
+	background-color: #b58900;
+}
+
+.name h1{
+	color: #efefef;
+	background-color: #b58900;
+}
+
+#footer {
+    height: 23px;
+    width: 100%;
+    background-color: #93a1a1;
+    position: absolute;
+    bottom: 0;
+}
+
+#foot {
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    bottom: 0;
+}
+
+.titleHolder{
+	text-align: center;
+}
+
+.titleHolder h1{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.llamaHolder{
+	height: 500px;
+	background-image: url("/assets/images/llama.jpg");
+	background-repeat: no-repeat;
+}
