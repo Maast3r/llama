@@ -76,7 +76,110 @@
 }
 
 .llamaHolder{
-	height: 510px;
+    position: relative;
+    width: 500px;
+	height: 450px;
 	background-image: url("/assets/images/llama.jpg");
 	background-repeat: no-repeat;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    /*animation-name: example;*/
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
 }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+
+.movingLlamaDesc h6{
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.runningLlamaWrapper{
+    margin-bottom: 15%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 100%;
+}
+
+.runningLlama{
+    display: inline-block;
+    width: 400px;
+    height: 100%;
+
+}
+
+#lbody, #backLegL, #backLegR, #frontLegL, #frontLegR{
+    position: relative;
+}
+
+#lbody{
+    width: 358px;
+    height: 295px;
+    background-image: url("/assets/images/llamaBody.png");
+    background-repeat: no-repeat;
+}
+
+#backLegL{
+    width: 106px;
+    height: 201px;
+    background-image: url("/assets/images/llamaLeftBackLeg.png");
+    background-repeat: no-repeat;
+    bottom: 100px;
+}
+
+#backLegR{
+    width: 120px;
+    height: 226px;
+    background-image: url("/assets/images/llamaRightBackLeg.png");
+    background-repeat: no-repeat;
+    bottom: 330px;
+    left: 40px;
+}
+
+#frontLegL{
+    width: 59px;
+    height: 118px;
+    background-image: url("/assets/images/llamaLeftFrontLeg.png");
+    background-repeat: no-repeat;
+    bottom: 450px;
+    left: 150px;
+}
+
+#frontLegR{
+    width: 59px;
+    height: 118px;
+    background-image: url("/assets/images/llamaLeftFrontLeg.png");
+    background-repeat: no-repeat;
+    bottom: 560px;
+    left: 200px;
+
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
