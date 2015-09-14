@@ -17,3 +17,14 @@
 //= require_tree .
 
 $(document).foundation();
+
+$(document).ready(function() {
+	setTimeout(function(){
+		$("#saiyanCharge").hide(2000, function(){
+			$(this).remove();
+			$("#hair").show(0, function(){
+				console.log("covergirl hurr");
+			});
+		});
+	}, 10000);
+});

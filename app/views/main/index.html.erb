@@ -2,15 +2,10 @@
 	<h1>LLAMA POWER</h1>
 </div>
 
-
-<div class="row">
-	<!-- <div class="llamaHolder"> -->
-	</div>
-</div>
-
 <br /><br />
 
 <div class="row runningLlamaWrapper">
+	<div id="sun"></div>
 	<div class="runningLlama">
 		<div id="lbody"></div>
 		<div id="backLegLWrap">
@@ -25,10 +20,21 @@
 		<!-- <div id="frontLegRWrap"> -->
 			<div id="frontLegR"></div>
 		<!-- </div> -->
+		<div id="saiyanCharge"></div>
+		<div id="hair"></div>
 	</div>
 </div>
 
+<div class="row spriteHolder">
+	<ul id="sprites">
+		<li class="why"><%= link_to image_tag("/assets/images/why.png"), why_path %></li>
+		<li class="what"><%= link_to image_tag("/assets/images/what.png"), what_path %></li>
+		<li class="where"><%= link_to image_tag("/assets/images/where.png"), where_path %></li>
+		<li class="how"><%= link_to image_tag("/assets/images/how.png"), how_path %></li>
+	</ul>
+</div>
+
 <div class="row movingLlamaDesc">
-	<h6>This llama animation was made purely using CSS3 animations</h6>
+	<h6>The animations on this website are made purely using CSS3 animations</h6>
 </div>
 

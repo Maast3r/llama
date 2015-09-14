@@ -22,6 +22,11 @@
     min-height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #073642;
+}
+
 ::selection {
     background: #d33682;
     color: white;
@@ -51,7 +56,7 @@
 }
 
 #footer {
-    height: 23px;
+    height: 25px;
     width: 100%;
     background-color: #93a1a1;
     position: absolute;
@@ -75,39 +80,6 @@
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.llamaHolder{
-    position: relative;
-    width: 500px;
-	height: 450px;
-	background-image: url("/assets/images/llama.jpg");
-	background-repeat: no-repeat;
-    -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
-    /*animation-name: example;*/
-    animation-duration: 4s;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:200px; top:200px;}
-    75%  {left:0px; top:200px;}
-    100% {left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  {left:200px; top:0px;}
-    50%  {left:200px; top:200px;}
-    75%  {left:0px; top:200px;}
-    100% {left:0px; top:0px;}
-}
-
 .movingLlamaDesc h6{
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -121,6 +93,7 @@
     margin-right: auto;
     height: 500px;
     width: 100%;
+    background-color: #7ec0ee;
     background-image: url("/assets/images/background.png");
 
     -webkit-animation: backgroundScroll 20  s linear infinite;
@@ -143,6 +116,7 @@
     height: 295px;
     background-image: url("/assets/images/llamaBody.png");
     background-repeat: no-repeat;
+    bottom: 50px;
     z-index: 5;
     -webkit-animation:oscillate 1s infinite;
     -moz-animation:oscillate 1s oscillate infinite;
@@ -151,7 +125,7 @@
 
 #backLegLWrap{
     position: relative;
-    bottom: 335px;
+    bottom: 385px;
 
     -webkit-animation:oscillate 1s infinite;
     -moz-animation:oscillate 1s infinite;
@@ -187,7 +161,7 @@
     background-image: url("/assets/images/llamaRightBackLeg.png");
     background-repeat: no-repeat;
     z-index: 6;
-     bottom: 780px;
+     bottom: 830px;
     left: 40px;
 
     -webkit-animation:spin3 1s linear infinite;
@@ -198,7 +172,7 @@
 
 #frontLegLWrap{
     position: relative;
-    bottom: 1020px;
+    bottom: 1070px;
     left: 150px;
 
     -webkit-animation:oscillate 1s infinite;
@@ -221,7 +195,6 @@
 
 #frontLegRWrap{
     position: relative;
-    
     z-index: 10;
 
     -webkit-animation:oscillate 1s infinite;
@@ -235,7 +208,7 @@
     background-image: url("/assets/images/llamaLeftFrontLeg.png");
     background-repeat: no-repeat;
     z-index: 6;
-    bottom: 1260px;
+    bottom: 1310px;
     left: 200px;
 
     -webkit-animation:spin1 1s linear infinite;
@@ -243,6 +216,113 @@
     animation:spin1 1s linear infinite;
     animation-direction: alternate;
 }
+
+#saiyanCharge{
+    position: relative;
+    width: 470.5px;
+    height: 475px;
+    background-image: url("/assets/images/superSaiyan.png");
+    z-index: 10;
+    bottom: 1780px;
+    right: 70px;
+
+    animation: charge 1s steps(3) infinite; 
+}
+
+#hair{
+    display: none;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url("/assets/images/hair.png");
+    background-repeat: no-repeat;
+    z-index: 20;
+    bottom: 1684px;
+    left: 236px;
+
+    -webkit-animation:oscillate 1s infinite;
+    -moz-animation:oscillate 1s oscillate infinite;
+    animation:oscillate 1s oscillate infinite;
+}
+
+#sun{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-image: url("/assets/images/sun.png");
+    background-repeat: no-repeat;
+    z-index: 0;
+    top: 140px;
+    left: 50px;
+}
+
+#sprites{
+    list-style: none;
+      margin: 15px 0;
+      text-align: center;
+}
+
+#sprites li{
+    display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      width: 200px;
+      list-style: none;
+      margin: 0 auto;
+      padding: 15px 30px;
+}
+
+.why{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+
+    transition: 1s ease-in-out;
+}
+
+.what{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+
+    transition: 1s ease-in-out;
+}
+
+.where{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+
+    transition: 1s ease-in-out;
+}
+
+.how{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-repeat: no-repeat;
+
+    transition: 1s ease-in-out;
+}
+
+.why:hover, .what:hover, .where:hover, .how:hover{
+    -webkit-transform: translate(540px,-200px);
+    -moz-transform: translate(540px,-200px);
+    -o-transform: translate(540px,-200px);
+    -ms-transform: translate(540px,-200px);
+    transform: translate(0,-50px);
+}
+
+#sprites li a{
+    width: 200px;
+    height: 400px;
+    
+}
+
+/* INDEX PAGE ANIMATIONS */
 
 /*front right leg*/
 @-moz-keyframes spin1 { 
@@ -311,15 +391,7 @@
     50% {-webkit-transform: translateY(-15px);}
 }
 
-
-#background-scroll {
-width: 200px;
-height: 200px;
-background: url(clouds-full.png) repeat-y;
--webkit-animation: backgroundScroll 20s linear infinite;
-animation: backgroundScroll 20s linear infinite;
-}
- 
+ /*background scroll */
 @-webkit-keyframes backgroundScroll {
     from {background-position: 0 0;}
     to {background-position: -1000px 0;}
@@ -328,4 +400,336 @@ animation: backgroundScroll 20s linear infinite;
 @keyframes backgroundScroll {
     from {background-position: 0 0;}
     to {background-position: -1000px 0;}
+}
+
+/* saiyan animation */
+@keyframes charge {
+   100% { background-position: -1411.5px; }
+}
+
+/* face animation */
+@-moz-keyframes face { 
+    0% {-moz-transform: translateY(-30px);}
+}
+
+@-webkit-keyframes face { 
+    0% {-moz-transform: translateY(-30px);}
+}
+
+@keyframes face { 
+     0% {-webkit-transform: translateY(-30px);}
+ }
+
+
+ /* WHERE STYLING */
+ .Planets{
+    background-image:url('/assets/images/galaxy.png');
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+}
+
+.planets .container h1{
+    font-size: 48px;
+    color: #fff;
+}
+
+body{
+    color: white;
+    font-size: 14px;
+}
+
+#solarSun {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    box-shadow: 0 0 100px red;
+}
+
+#mercury {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#mercury-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 8.8s linear infinite;
+    -moz-animation: spin-right 8.8s linear infinite;
+    -ms-animation: spin-right 8.8s linear infinite;
+    -o-animation: spin-right 8.8s linear infinite;
+    animation: spin-right 8.8s linear infinite;
+}
+
+#venus {
+    position: absolute;
+    top: .5%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#venus-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 22.5s linear infinite;
+    -moz-animation: spin-right 22.5s linear infinite;
+    -ms-animation: spin-right 22.5s linear infinite;
+    -o-animation: spin-right 22.5s linear infinite;
+    animation: spin-right 22.5s linear infinite;
+}
+
+#earth {
+    position: absolute;
+    top: -5.5%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+}
+
+#earth-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 510px;
+    height: 510px;
+    margin-top: -250px;
+    margin-left: -250px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 36.5s linear infinite;
+    -moz-animation: spin-right 36.5s linear infinite;
+    -ms-animation: spin-right 36.5s linear infinite;
+    -o-animation: spin-right 36.5s linear infinite;
+    animation: spin-right 36.5s linear infinite;
+}
+
+#mars {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#mars-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -300px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 68.7s linear infinite;
+    -moz-animation: spin-right 68.7s linear infinite;
+    -ms-animation: spin-right 68.7s linear infinite;
+    -o-animation: spin-right 68.7s linear infinite;
+    animation: spin-right 68.7s linear infinite;
+}
+
+#jupiter {
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#jupiter-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -350px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 433.2s linear infinite;
+    -moz-animation: spin-right 433.2s linear infinite;
+    -ms-animation: spin-right 433.2s linear infinite;
+    -o-animation: spin-right 433.2s linear infinite;
+    animation: spin-right 433.2s linear infinite;
+}
+
+#saturn {
+    position: absolute;
+    top: -2.5%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: -25px;
+    margin-top: -5px;
+}
+
+#saturn-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 800px;
+    margin-top: -400px;
+    margin-left: -400px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 1075.9s linear infinite;
+    -moz-animation: spin-right 1075.9s linear infinite;
+    -ms-animation: spin-right 1075.9s linear infinite;
+    -o-animation: spin-right 1075.9s linear infinite;
+    animation: spin-right 1075.9s linear infinite;
+}
+
+#uranus {
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    width: 65px;
+    height: 65px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#uranus-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 900px;
+    margin-top: -450px;
+    margin-left: -450px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 3068.7s linear infinite;
+    -moz-animation: spin-right 3068.7s linear infinite;
+    -ms-animation: spin-right 3068.7s linear infinite;
+    -o-animation: spin-right 3068.7s linear infinite;
+    animation: spin-right 3068.7s linear infinite;
+}
+
+#neptune {
+    position: absolute;
+    top: -.5%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#neptune-orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 1000px;
+    margin-top: -500px;
+    margin-left: -500px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 6019s linear infinite;
+    -moz-animation: spin-right 6019s linear infinite;
+    -ms-animation: spin-right 6019s linear infinite;
+    -o-animation: spin-right 6019s linear infinite;
+      animation: spin-right 6019s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.whereEarth{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+.whereEarth h4{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+td.upper_line { 
+    border-top:solid 1px black; 
+}
+
+table.fraction { 
+    text-align: center; 
+    vertical-align: middle;
+    margin-top:0.5em; 
+    margin-bottom:0.5em; 
+    line-height: 2em; 
 }

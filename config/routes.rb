@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   get '/', to: "main#index", as: :main_index
+  get '/why', to: "main#why", as: :why
+  get '/what', to: "main#what", as: :what
+  get '/where', to: "main#where", as: :where
+  get '/how', to: "main#how", as: :how
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
