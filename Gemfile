@@ -28,6 +28,8 @@ gem 'zurb-foundation'
 gem 'quiet_assets'
 # gem 'foundation-rails'
 
+gem 'jquery-turbolinks'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

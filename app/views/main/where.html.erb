@@ -1,5 +1,5 @@
 <div class="row titleHolder">
-    <h1>Where are LLamas?</h1>
+    <h1>Where are Llamas?</h1>
 </div>
 
 <br /><br />
@@ -46,6 +46,7 @@
 <br /><br />
 
 <div class="row whereEarth">
+    <%= image_tag("/assets/images/earth.png", id: "earthSentence") %>
     <h4>The only planet that llamas live on is Earth! Did you know that Earth is the only planet that benefits from llama power? Fun fact: we have the most llamas in the solar system. In fact, we have over 7 million llamas living on planet Earth. According to the formula from <%= link_to "Llama Power Calculator", "http://calculatorcroc.com/llama_power_calculator" %>:</h4>
     <table class="fraction" align="center" cellpadding="0" cellspacing="0">
         <tr>
@@ -74,3 +75,11 @@
         <h5><i>a</i> = Average attitude level (10 being a drama llama) = 5</h5>
     </div>
 </div>
+
+<br /><br />
+
+<div class="row movingLlamaDesc">
+    <h6>The animations on this page are made purely using CSS3 animations</h6>
+</div>
+
+<%= javascript_include_tag "where", 'data-turbolinks-track' => true %>

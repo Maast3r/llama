@@ -722,6 +722,11 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+#earthSentence{
+    width: 200px;
+    height: 200px;
+}
+
 td.upper_line { 
     border-top:solid 1px black; 
 }
@@ -732,4 +737,20 @@ table.fraction {
     margin-top:0.5em; 
     margin-bottom:0.5em; 
     line-height: 2em; 
+}
+
+#farm{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 100%;
+    background-color: #7ec0ee;
+    background-image: url("/assets/images/background.png");
+}
+
+#c{
+    background-color: #7ec0ee;
+    background-image: url("/assets/images/background.png");
 }

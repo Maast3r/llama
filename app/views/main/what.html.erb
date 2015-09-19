@@ -1,0 +1,29 @@
+<div class="row titleHolder">
+	<h1>Llama Farm!</h1>
+</div>
+
+<br /><br /><br /><br />
+
+<div class="row">
+	<canvas id="farm" width="875px" height="500px">Your browser does not support HTML5 canvas. Use a newer browser to play with llamas :)</canvas>
+</div>
+
+<br /><br /><br />
+
+<div class="row">
+	<h4>This is your llama farm! Feel free to stick around and just relax as you watch mini llamas roam the pasture. To feed a llama, click and hold the hay <%= image_tag("/assets/images/hay.png") %> and just drag the hay to the llama you want to feed. By feeding a llama you create a new llama!</h4>
+</div>
+
+<br />
+
+<div class="row">
+	<h4>If you wanna clear the farm back to just one llama, just click on this button <%= image_tag("/assets/images/reset.png") %>. Don't worry. When you click the button, the llamas get transported into magic llama land. No llamas will be hurt by resetting the farm back to one llama :)</h4>
+</div>
+
+<br /><br />
+
+<div class="row movingLlamaDesc">
+    <h6>The farm was built using HTML5 canvas and JS aniamtions</h6>
+</div>
+
+<%= javascript_include_tag "what", 'data-turbolinks-track' => true %>
