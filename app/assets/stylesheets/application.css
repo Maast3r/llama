@@ -97,6 +97,9 @@ h1, h2, h3, h4, h5, h6{
     background-image: url("/assets/images/background.png");
 
     -webkit-animation: backgroundScroll 20  s linear infinite;
+    -moz-animation: backgroundScroll 20  s linear infinite;
+    -o-animation: backgroundScroll 20  s linear infinite;
+    -ms-animation: backgroundScroll 20  s linear infinite;
     animation: backgroundScroll 20s linear infinite;
 }
 
@@ -118,18 +121,22 @@ h1, h2, h3, h4, h5, h6{
     background-repeat: no-repeat;
     bottom: 50px;
     z-index: 5;
-    -webkit-animation:oscillate 1s infinite;
-    -moz-animation:oscillate 1s oscillate infinite;
-    animation:oscillate 1s oscillate infinite;
+    -webkit-animation: oscillate 1s infinite;
+    -moz-animation: oscillate 1s oscillate infinite;
+    -o-animation: oscillate 1s infinite;
+    -ms-animation: oscillate 1s infinite;
+    animation: oscillate 1s oscillate infinite;
 }
 
 #backLegLWrap{
     position: relative;
     bottom: 385px;
 
-    -webkit-animation:oscillate 1s infinite;
-    -moz-animation:oscillate 1s infinite;
-    animation:oscillate 1s infinite;
+    -webkit-animation: oscillate 1s infinite;
+    -moz-animation: oscillate 1s oscillate infinite;
+    -o-animation: oscillate 1s infinite;
+    -ms-animation: oscillate 1s infinite;
+    animation: oscillate 1s oscillate infinite;
 }
 
 #backLegL{
@@ -139,8 +146,10 @@ h1, h2, h3, h4, h5, h6{
     background-repeat: no-repeat;
     z-index: 4;
 
-    -webkit-animation:spin4 1s linear infinite;
-    -moz-animation:spin4 1s linear infinite;
+    -webkit-animation: spin4 1s linear infinite;
+    -moz-animation: spin4 1s linear infinite;
+    -o-animation: spin4 1s linear infinite;
+    -ms-animation: spin4 1s linear infinite;
     animation:spin4 1s linear infinite;
     animation-direction: alternate;
 }
@@ -150,9 +159,11 @@ h1, h2, h3, h4, h5, h6{
    
     z-index: 7;
 
-    -webkit-animation:oscillate 1s infinite;
-    -moz-animation:oscillate 1s infinite;
-    animation:oscillate 1s infinite;
+    -webkit-animation: oscillate 1s infinite;
+    -moz-animation: oscillate 1s oscillate infinite;
+    -o-animation: oscillate 1s infinite;
+    -ms-animation: oscillate 1s infinite;
+    animation: oscillate 1s oscillate infinite;
 }
 
 #backLegR{
@@ -164,9 +175,11 @@ h1, h2, h3, h4, h5, h6{
      bottom: 830px;
     left: 40px;
 
-    -webkit-animation:spin3 1s linear infinite;
-    -moz-animation:spin3 1s linear infinite;
-    animation:spin3 1s linear infinite;
+    -webkit-animation: spin3 1s linear infinite;
+    -moz-animation: spin3 1s linear infinite;
+    -o-animation: spin3 1s linear infinite;
+    -ms-animation: spin3 1s linear infinite;
+    animation: spin3 1s linear infinite;
     animation-direction: alternate;
 }
 
@@ -175,9 +188,11 @@ h1, h2, h3, h4, h5, h6{
     bottom: 1070px;
     left: 150px;
 
-    -webkit-animation:oscillate 1s infinite;
-    -moz-animation:oscillate 1s infinite;
-    animation:oscillate 1s infinite;
+    -webkit-animation: oscillate 1s infinite;
+    -moz-animation: oscillate 1s infinite;
+    -o-animation: oscillate 1s infinite;
+    -ms-animation: oscillate 1s infinite;
+    animation: oscillate 1s infinite;
 }
 
 #frontLegL{
@@ -187,9 +202,11 @@ h1, h2, h3, h4, h5, h6{
     background-repeat: no-repeat;
     z-index: 4;
 
-    -webkit-animation:spin2 1s linear infinite;
-    -moz-animation:spin2 1s linear infinite;
-    animation:spin2 1s linear infinite;
+    -webkit-animation: spin2 1s linear infinite;
+    -moz-animation: spin2 1s linear infinite;
+    -o-animation: spin2 1s linear infinite;
+    -ms-animation: spin2 1s linear infinite;
+    animation: spin2 1s linear infinite;
     animation-direction: alternate;
 }
 
@@ -197,9 +214,11 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
     z-index: 10;
 
-    -webkit-animation:oscillate 1s infinite;
-    -moz-animation:oscillate 1s infinite;
-    animation:oscillate 1s infinite;
+    -webkit-animation: oscillate 1s infinite;
+    -moz-animation: oscillate 1s infinite;
+    -o-animation: oscillate 1s infinite;
+    -ms-animation: oscillate 1s infinite;
+    animation: oscillate 1s infinite;
 }
 
 #frontLegR{
@@ -211,9 +230,11 @@ h1, h2, h3, h4, h5, h6{
     bottom: 1310px;
     left: 200px;
 
-    -webkit-animation:spin1 1s linear infinite;
-    -moz-animation:spin1 1s linear infinite;
-    animation:spin1 1s linear infinite;
+    -webkit-animation: spin1 1s linear infinite;
+    -moz-animation: spin1 1s linear infinite;
+    -o-animation: spin1 1s linear infinite;
+    -ms-animation: spin1 1s linear infinite;
+    animation: spin1 1s linear infinite;
     animation-direction: alternate;
 }
 
@@ -226,6 +247,10 @@ h1, h2, h3, h4, h5, h6{
     bottom: 1780px;
     right: 70px;
 
+    -webkit-animation: charge 1s steps(3) infinite;
+    -moz-animation: charge 1s steps(3) infinite;
+    -o-animation: charge 1s steps(3) infinite;
+    -ms-animation: charge 1s steps(3) infinite;
     animation: charge 1s steps(3) infinite; 
 }
 
@@ -240,9 +265,11 @@ h1, h2, h3, h4, h5, h6{
     bottom: 1684px;
     left: 236px;
 
-    -webkit-animation:oscillate 1s infinite;
-    -moz-animation:oscillate 1s oscillate infinite;
-    animation:oscillate 1s oscillate infinite;
+    -webkit-animation: oscillate 1s infinite;
+    -moz-animation: oscillate 1s oscillate infinite;
+    -o-animation: oscillate 1s oscillate infinite;
+    -ms-animation: oscillate 1s oscillate infinite;
+    animation: oscillate 1s oscillate infinite;
 }
 
 #sun{
@@ -278,6 +305,10 @@ h1, h2, h3, h4, h5, h6{
     height: 400px;
     background-repeat: no-repeat;
 
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
 }
 
@@ -287,6 +318,10 @@ h1, h2, h3, h4, h5, h6{
     height: 400px;
     background-repeat: no-repeat;
 
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
 }
 
@@ -296,6 +331,10 @@ h1, h2, h3, h4, h5, h6{
     height: 400px;
     background-repeat: no-repeat;
 
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
 }
 
@@ -305,6 +344,10 @@ h1, h2, h3, h4, h5, h6{
     height: 400px;
     background-repeat: no-repeat;
 
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
 }
 
@@ -325,13 +368,21 @@ h1, h2, h3, h4, h5, h6{
 /* INDEX PAGE ANIMATIONS */
 
 /*front right leg*/
+@-webkit-keyframes spin1 { 
+    0% { -webkit-transform: rotate(-35deg);}
+    100% { -webkit-transform: rotate(35deg); } 
+}
 @-moz-keyframes spin1 { 
     0% {-moz-transform: rotate(-35deg);}
     100% { -moz-transform: rotate(35deg); }
 }
-@-webkit-keyframes spin1 { 
-    0% { -webkit-transform: rotate(-35deg);}
-    100% { -webkit-transform: rotate(35deg); } 
+@-o-keyframes spin1 { 
+    0% {-o-transform: rotate(-35deg);}
+    100% { -o-transform: rotate(35deg); }
+}
+@-ms-keyframes spin1 { 
+    0% {-ms-transform: rotate(-35deg);}
+    100% { -ms-transform: rotate(35deg); }
 }
 @keyframes spin1 { 
      0% { -webkit-transform: rotate(-35deg);}
@@ -339,13 +390,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*front left leg*/ 
+@-webkit-keyframes spin2 { 
+    0% { -webkit-transform: rotate(35deg);}
+    100% { -webkit-transform: rotate(-35deg); } 
+}
 @-moz-keyframes spin2 { 
     0% {-moz-transform: rotate(35deg);}
     100% { -moz-transform: rotate(-35deg); }
 }
-@-webkit-keyframes spin2 { 
-    0% { -webkit-transform: rotate(35deg);}
-    100% { -webkit-transform: rotate(-35deg); } 
+@-o-keyframes spin2 { 
+    0% {-o-transform: rotate(35deg);}
+    100% { -o-transform: rotate(-35deg); }
+}
+@-ms-keyframes spin2 { 
+    0% {-ms-transform: rotate(35deg);}
+    100% { -ms-transform: rotate(-35deg); }
 }
 @keyframes spin2 { 
      0% { -webkit-transform: rotate(35deg);}
@@ -353,13 +412,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*back right leg*/ 
+@-webkit-keyframes spin3 { 
+    0% { -webkit-transform: rotate(30deg);}
+    100% { -webkit-transform: rotate(-5deg); } 
+}
 @-moz-keyframes spin3 { 
     0% {-moz-transform: rotate(30deg);}
     100% { -moz-transform: rotate(-5deg); }
 }
-@-webkit-keyframes spin3 { 
-    0% { -webkit-transform: rotate(30deg);}
-    100% { -webkit-transform: rotate(-5deg); } 
+@-o-keyframes spin3 { 
+    0% {-o-transform: rotate(30deg);}
+    100% { -o-transform: rotate(-5deg); }
+}
+@-ms-keyframes spin3 { 
+    0% {-ms-transform: rotate(30deg);}
+    100% { -ms-transform: rotate(-5deg); }
 }
 @keyframes spin3 { 
      0% { -webkit-transform: rotate(30deg);}
@@ -367,13 +434,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*back left leg*/ 
+@-webkit-keyframes spin4 { 
+    0% { -webkit-transform: rotate(-30deg);}
+    100% { -webkit-transform: rotate(10deg); } 
+}
 @-moz-keyframes spin4 { 
     0% {-moz-transform: rotate(-30deg);}
     100% { -moz-transform: rotate(10deg); }
 }
-@-webkit-keyframes spin4 { 
-    0% { -webkit-transform: rotate(-30deg);}
-    100% { -webkit-transform: rotate(10deg); } 
+@-o-keyframes spin4 { 
+    0% {-o-transform: rotate(-30deg);}
+    100% { -o-transform: rotate(10deg); }
+}
+@-ms-keyframes spin4 { 
+    0% {-ms-transform: rotate(-30deg);}
+    100% { -ms-transform: rotate(10deg); }
 }
 @keyframes spin4 { 
      0% { -webkit-transform: rotate(-30deg);}
@@ -385,7 +460,18 @@ h1, h2, h3, h4, h5, h6{
     0% {-webkit-transform: translateY(0);}
     50% {-webkit-transform: translateY(-15px);}
 } 
- 
+@-moz-keyframes oscillate {
+    0% {-moz-transform: translateY(0);}
+    50% {-moz-transform: translateY(-15px);}
+}
+@-o-keyframes oscillate {
+    0% {-o-transform: translateY(0);}
+    50% {-o-transform: translateY(-15px);}
+}
+@-ms-keyframes oscillate {
+    0% {-ms-transform: translateY(0);}
+    50% {-ms-transform: translateY(-15px);}
+}
 @keyframes oscillate {
     0% {-webkit-transform: translateY(0);}
     50% {-webkit-transform: translateY(-15px);}
@@ -396,26 +482,53 @@ h1, h2, h3, h4, h5, h6{
     from {background-position: 0 0;}
     to {background-position: -1000px 0;}
 }
- 
+@-moz-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1000px 0;}
+}
+@-o-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1000px 0;}
+}
+@-ms-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -1000px 0;}
+}
 @keyframes backgroundScroll {
     from {background-position: 0 0;}
     to {background-position: -1000px 0;}
 }
 
 /* saiyan animation */
+@-webkit-keyframes charge {
+   100% { background-position: -1411.5px; }
+}
+@-moz-keyframes charge {
+   100% { background-position: -1411.5px; }
+}
+@-o-keyframes charge {
+   100% { background-position: -1411.5px; }
+}
+@-ms-keyframes charge {
+   100% { background-position: -1411.5px; }
+}
 @keyframes charge {
    100% { background-position: -1411.5px; }
 }
 
-/* face animation */
-@-moz-keyframes face { 
-    0% {-moz-transform: translateY(-30px);}
-}
-
+/* faces animation */
 @-webkit-keyframes face { 
     0% {-moz-transform: translateY(-30px);}
 }
-
+@-moz-keyframes face { 
+    0% {-moz-transform: translateY(-30px);}
+}
+@-o-keyframes face { 
+    0% {-o-transform: translateY(-30px);}
+}
+@-ms-keyframes face { 
+    0% {-ms-transform: translateY(-30px);}
+}
 @keyframes face { 
      0% {-webkit-transform: translateY(-30px);}
  }
@@ -690,7 +803,7 @@ body{
     -moz-animation: spin-right 6019s linear infinite;
     -ms-animation: spin-right 6019s linear infinite;
     -o-animation: spin-right 6019s linear infinite;
-      animation: spin-right 6019s linear infinite;
+    animation: spin-right 6019s linear infinite;
 }
 
 @-webkit-keyframes spin-right {
@@ -739,6 +852,8 @@ table.fraction {
     line-height: 2em; 
 }
 
+/* END WHERE */
+
 #farm{
     display: block;
     text-align: center;
@@ -753,4 +868,19 @@ table.fraction {
 #c{
     background-color: #7ec0ee;
     background-image: url("/assets/images/background.png");
+}
+
+.myCanvasWrapper{
+    height: 500px;
+    width: 1000px;
+}
+
+#myCanvas{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    width: 950px;
+    height: 500px;
 }

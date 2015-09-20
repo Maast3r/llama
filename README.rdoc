@@ -1,28 +1,55 @@
 == README
+https://zappos-llama.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Author: Andrew Ma
 
-Things you may want to cover:
+Resources used to build the project:
 
-* Ruby version
+* Ruby version 2.1.5
 
-* System dependencies
+* Rails 4.2.4
 
-* Configuration
+* JavaScript
 
-* Database creation
+* jQuery
 
-* Database initialization
+* Foundation 5
 
-* How to run the test suite
+* HTML5
 
-* Services (job queues, cache servers, search engines, etc.)
+* CSS3
 
-* Deployment instructions
 
-* ...
+= WHY I MADE THIS
+Zappos is an awesome company and I really want to work there. As part of their application for their front-end engineer internship positions, I had to create a 1-5 page website based off of llamas (since zappos runs off of llama power). This website is a fun derpy thing I made in my application to zappos.com.
 
+---
+
+= HOW I MADE THIS
+
+=== Heroku
+The website is hosted and deployed thorugh a service called Heroku (https://www.heroku.com/). This service easily allowed me to host the website for free. Heroku is super useful and easy to use.
+
+=== Foundation
+The website is styled using Foundation's grid styling system. Foundation allows for a lot of flexibility in terms of web design. I like the ease of use and the simplicity. Foundation allows you to build good looking apps quickly.
+
+=== Llama Walk Animation
+The llama walk animation on the front page of the website was built entirely in HTML5 and CSS3 animations. I split the llama into 5 parts: body, front right leg, front left leg, back right leg, back left leg, and animated each part to make the llama looks as if it is "walking". The background is just an image that keeps panning to the left, and the super saiyan charge is an alternating extended image.
+
+=== Llama Head Animation
+The llama head animations on the front page of the website were built with HTML5 and CSS3 animations.
+
+=== Bubble Animation
+The bubble animation was made with JavaScript. A majority of the code came from Google, Rob Hawkes, and Mark Brenig-Jones & Emile Petrone. They are properly cited on the page.
+
+=== Farm Animation
+The farm animation was also made with JavaScript. I made different types of JavaScripts (draggable, clickable, and static). The hay was a draggable object, reset button was clickable, and llamas were static. Llamas move to a randomly location, then move to another random location in the grass.
+
+=== Solar System Animation
+The solar system animation was made in HTML5 and CSS3. Each planet was has just a rotation transform taht makes them cycle around their respective divs.
+
+=== Images
+All images used in my website were created by Andrew Ma using Paint.net. The llama was taken from a free source picture.
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.

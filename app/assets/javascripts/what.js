@@ -26,6 +26,7 @@ function getRandomInt(min, max) {
 function canvasStuff(){
 	farmCanvas = $("#farm");
 	ctx = farmCanvas[0].getContext("2d");
+	ctx.clearRect(0, 0, 875, 500);
 
 	/* ANIMATION LOGIC */
 	
@@ -136,11 +137,13 @@ function canvasStuff(){
 	/* ALL LLAMA LOGIC */
 
 	var llamaPath = "/assets/images/miniLlama.png";
-	var llama = new Llama(llamaPath, 200, 450);
+	var llama;
 	var llamas = [];
+	llama = new Llama(llamaPath, 200, 450);
 	llamas.push(llama);
 
 	function Llama(src, x, y){
+		console.log("made a llama");
 		var that = this;
 		var startX = 0,
 			startY = 0;
@@ -213,3 +216,4 @@ function canvasStuff(){
 
 	/* END OF RESET BUTTON LOGIC */
 }
+
