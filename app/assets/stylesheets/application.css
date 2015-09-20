@@ -16,7 +16,7 @@
 
  */
 
- html, body {
+html, body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fdf6e3;
     min-height: 100%;
@@ -291,15 +291,16 @@ h1, h2, h3, h4, h5, h6{
 
 #sprites li{
     display: inline-block;
-      vertical-align: top;
-      text-align: center;
-      width: 200px;
-      list-style: none;
-      margin: 0 auto;
-      padding: 15px 30px;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+    list-style: none;
+    margin: -50px 0 0 0;
+    padding: 15px 30px;
 }
 
 .why{
+    margin-top: -50px;
     position: relative;
     width: 200px;
     height: 400px;
@@ -313,6 +314,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .what{
+    margin-top: -50px;
     position: relative;
     width: 200px;
     height: 400px;
@@ -326,6 +328,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .where{
+    margin-top: -50px;
     position: relative;
     width: 200px;
     height: 400px;
@@ -339,6 +342,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .how{
+    margin-top: -50px;
     position: relative;
     width: 200px;
     height: 400px;
@@ -360,6 +364,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #sprites li a{
+    margin-top: -50px;
     width: 200px;
     height: 400px;
     
