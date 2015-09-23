@@ -341,19 +341,7 @@ h1, h2, h3, h4, h5, h6{
     transition: 1s ease-in-out;
 }
 
-.how{
-    margin-top: -50px;
-    position: relative;
-    width: 200px;
-    height: 400px;
-    background-repeat: no-repeat;
 
-    -webkit-transition: 1s ease-in-out;
-    -moz-transition: 1s ease-in-out;
-    -o-transition: 1s ease-in-out;
-    -ms-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
-}
 
 .why:hover, .what:hover, .where:hover, .how:hover{
     -webkit-transform: translate(540px,-200px);

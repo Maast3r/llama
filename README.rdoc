@@ -51,5 +51,3 @@ The solar system animation was made in HTML5 and CSS3. Each planet was has just 
 === Images
 All images used in my website were created by Andrew Ma using Paint.net. The llama was taken from a free source picture.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
