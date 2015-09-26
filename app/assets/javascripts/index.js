@@ -7,7 +7,7 @@ function makeHair(){
 	var charge= document.getElementById("saiyanCharge");
 	if(charge){
 		setTimeout(function(){
-			$("#saiyanCharge").hide(2000, function(){
+			$("#saiyanCharge").hide(1000, function(){
 				$(this).remove();
 				$("#hair").show(0, function(){
 				});
